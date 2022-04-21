@@ -476,6 +476,7 @@ header {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 /* experimental test thingies */
@@ -589,3 +590,4 @@ header {
 		filter: hue-rotate(0deg);
 	}
 }
+
