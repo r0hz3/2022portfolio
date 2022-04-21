@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom properties, update later with own design */
+/* Custom properties */
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -246,6 +246,10 @@ header {
     box-shadow: var(--bs);
 }
 
+.intro__gif {
+    box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -262,6 +266,12 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+    }
+
+    .intro__gif {
+        width: min-content max-content;
+        margin: 0 auto;
+        position: relative;
     }
 
     .section__subtitle--intro {
